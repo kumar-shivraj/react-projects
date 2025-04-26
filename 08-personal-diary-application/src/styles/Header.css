@@ -1,0 +1,25 @@
+#header-wrapper {
+  padding: 2vh;
+  background-color: rgb(218, 217, 217);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-sheet {
+  padding: 1.8vh;
+  margin-left: 1vh;
+  border: transparent;
+  border-radius: 2vh;
+}
+
+.date-sheet:hover {
+  opacity: 50%;
+  user-select: none;
+}
+
+.date-sheet:focus {
+  outline: none;
+  opacity: 75%;
+}
